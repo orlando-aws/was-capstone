@@ -3,8 +3,8 @@ apt-get update -y
 apt-get install git -y
 apt-get install python3 -y
 cd /home/ubuntu/
-TOKEN="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"
-git clone https://$TOKEN@github.com/orlando-aws/was-capstone
+TOKEN="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"
+git clone https://$TOKEN@github.com/orlando-aws/was-capstone.git
 cd /home/ubuntu/was-capstone
 apt install python3-pip -y
 apt-get install python3.7-dev libmysqlclient-dev -y
